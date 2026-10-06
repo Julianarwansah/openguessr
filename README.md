@@ -41,6 +41,17 @@ fetch('https://raw.githubusercontent.com/akatiggerx04/openguessr-cheats/refs/hea
 3. Press Enter to execute the code.
 After executing the code, you will see a pop-up window open. If you don't see the pop-up, check if you have a pop-up blocker enabled and allow pop-ups for the OpenGuessr website.
 
+**Browser Extension Mode**
+--------------------------
+The `extension/` folder contains the overlay mode as a Chrome/Edge extension, so you don't have to paste anything into the Console on every visit.
+
+1. Open `chrome://extensions` (or `edge://extensions`).
+2. Enable **Developer mode** in the top right corner.
+3. Click **Load unpacked** and select the `extension/` folder of this repository.
+4. Open https://openguessr.com and start a round — the "Find Coordinates" button appears in the top right corner.
+
+Manifest V3 forbids remote code and `eval`, which is why the `fetch(...).then(eval)` snippets above cannot be used inside the extension. The script is bundled locally as a content script instead.
+
 **Troubleshooting Tips**
 * Make sure you're on the correct page: https://openguessr.com
 * Ensure you've allowed pasting in the Console tab (if prompted)

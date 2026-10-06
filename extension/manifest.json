@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "OpenGuessr Coordinates Overlay",
+  "version": "1.0.0",
+  "description": "Adds a button to openguessr.com that reveals the coordinates of the current round.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://openguessr.com/*",
+        "https://www.openguessr.com/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
