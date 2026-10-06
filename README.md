@@ -22,20 +22,20 @@ This will enable pasting in the Console tab.
 Choose one of the following modes:
 
 #### In-Game Overlay Mode
-![preview](https://github.com/akatiggerx04/openguessr-cheats/blob/main/preview-overlay.webp?raw=true)
+![preview](https://github.com/Julianarwansah/openguessr/blob/main/preview-overlay.webp?raw=true)
 1. Copy the following code:
 ```javascript
-fetch('https://raw.githubusercontent.com/akatiggerx04/openguessr-cheats/refs/heads/main/cheat-overlay.js').then(r => r.text()).then(eval);
+fetch('https://raw.githubusercontent.com/Julianarwansah/openguessr/refs/heads/main/cheat-overlay.js').then(r => r.text()).then(eval);
 ```
 2. Paste it in the Console tab.
 3. Press Enter to execute the code.
 After executing the code, you should see a new "Find Coordinates" button added to the game in the top right corner.
 
 #### Separate Window Mode
-![preview](https://github.com/akatiggerx04/openguessr-cheats/blob/main/preview-window.webp?raw=true)
+![preview](https://github.com/Julianarwansah/openguessr/blob/main/preview-window.webp?raw=true)
 1. Copy the following code:
 ```javascript
-fetch('https://raw.githubusercontent.com/akatiggerx04/openguessr-cheats/refs/heads/main/cheat-window.js').then(r => r.text()).then(eval);
+fetch('https://raw.githubusercontent.com/Julianarwansah/openguessr/refs/heads/main/cheat-window.js').then(r => r.text()).then(eval);
 ```
 2. Paste it in the Console tab.
 3. Press Enter to execute the code.
